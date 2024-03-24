@@ -11,8 +11,8 @@ from store.models import Product,BasketItem,Size,OrderItems,Order,Category,Tag
 from store.decorators import signin_required,owner_permission_required
 from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
-KEY_ID="rzp_test_5OQ2PGh4Ob3pe9"
-KEY_SECRET="Cb0FZSlbn4TqiOcAW1brX0g6"
+KEY_ID="rzp_test_5OQ2PGh4Ob3pe9456"
+KEY_SECRET="Cb0FZSlbn4TqiOcAW1brX0g6123"
 
 def signin_required(fn):
     def wrapper(request,*args,**kwargs):
